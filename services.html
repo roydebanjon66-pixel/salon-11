@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Signature Men's Salon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo"><img src="logo.png" alt="Signature Men's Salon Logo"></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-yellow nav-book">Book Now</a>
+    <button class="hamburger" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+  <a href="pricing.html">Pricing</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-yellow" style="margin-top:20px;text-align:center;">Book Now</a>
+</div>
+<div class="mobile-nav-overlay"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <h1>OUR <span>SERVICES</span></h1>
+  <p>Experienced hands. Elite results. Every single time.</p>
+</section>
+
+<!-- MAIN SERVICES -->
+<section class="section">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>GROOMING <span>SERVICES</span></h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-cut icon"></i>
+        <h3>Stylish Haircut</h3>
+        <p>Expert cuts and premium styling tailored to your unique personality.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-id-card icon"></i>
+        <h3>Facial & Skin Care</h3>
+        <p>Elite skin rejuvenation and executive facial treatments for men.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-hand-sparkles icon"></i>
+        <h3>Beard Trim / Shave</h3>
+        <p>Expert beard shaping and traditional hot towel shaves.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-palette icon"></i>
+        <h3>Hair Styling</h3>
+        <p>Professional styling for any occasion, from casual to formal.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-spa icon"></i>
+        <h3>Hair Treatment</h3>
+        <p>Specialized therapies to keep your hair healthy and strong.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-hot-tub icon"></i>
+        <h3>Head Massage</h3>
+        <p>Relieve stress with our signature relaxation head massage.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-magic icon"></i>
+        <h3>Executive Grooming</h3>
+        <p>Comprehensive grooming packages for the modern professional.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-gem icon"></i>
+        <h3>Premium Facials</h3>
+        <p>Gold, Diamond, and Whitening transformations for a radiant look.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALIZED SERVICES -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>SPECIALIZED <span>TREATMENTS</span></h2>
+      <div class="title-line"></div>
+      <p>Advanced services for the modern grooming enthusiast.</p>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item reveal"><i class="fas fa-droplet"></i><span>Thai Hydra Facial</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-star-of-life"></i><span>Premium Hydra Facial</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-spa"></i><span>Mix Skincare & Facial</span></div>
+      <div class="spec-item reveal reveal-delay-3"><i class="fas fa-gem"></i><span>Royal Diamond Facial</span></div>
+      <div class="spec-item reveal"><i class="fas fa-star"></i><span>Premium Whitening Facial</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-medal"></i><span>Premium Gold Facial</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-hand-sparkles"></i><span>Insta Glow Facial</span></div>
+      <div class="spec-item reveal reveal-delay-3"><i class="fas fa-seedling"></i><span>Natural / Anmol Mehedi</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE SERVICE MENU -->
+<section class="section" id="interactive-menu">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>INTERACTIVE <span>MENU</span></h2>
+      <div class="title-line"></div>
+      <p>Explore our treatments to find the perfect style for you.</p>
+    </div>
+    <div class="interactive-services reveal">
+      <div class="service-buttons">
+         <button class="service-btn active" data-target="haircut">Stylish Haircut</button>
+         <button class="service-btn" data-target="skincare">Facial & Skin Care</button>
+         <button class="service-btn" data-target="beard">Beard Trim / Shave</button>
+         <button class="service-btn" data-target="styling">Hair Styling</button>
+         <button class="service-btn" data-target="treatment">Hair Treatment</button>
+         <button class="service-btn" data-target="massage">Head Massage</button>
+      </div>
+
+      <div class="service-display">
+
+         <!-- Haircut -->
+         <div class="service-panel active" id="panel-haircut">
+           <img src="haircut_service.png" alt="Stylish Haircut">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Stylish Haircut</h3>
+             <p class="service-panel-desc">Personalized consultation and precise fade or scissor cut tailored to your face structure.</p>
+             <div class="service-panel-price">Included in most packages from ৳400</div>
+           </div>
+         </div>
+
+         <!-- Skincare -->
+         <div class="service-panel" id="panel-skincare">
+           <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800" alt="Facial & Skin Care">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Facial & Skin Care</h3>
+             <p class="service-panel-desc">Advanced facial treatments and skin rejuvenation therapies using top-tier products.</p>
+             <div class="service-panel-price">Signature Signature Packages Available</div>
+           </div>
+         </div>
+
+         <!-- Beard -->
+         <div class="service-panel" id="panel-beard">
+           <img src="beard_trim_service.png" alt="Beard Trim / Shave">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Beard Trim / Shave</h3>
+             <p class="service-panel-desc">Expert beard shaping, lining, and traditional hot towel shaves for a clean look.</p>
+             <div class="service-panel-price">Precision Grooming</div>
+           </div>
+         </div>
+
+         <!-- Styling -->
+         <div class="service-panel" id="panel-styling">
+           <img src="hair_styling_service.png" alt="Hair Styling">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Styling</h3>
+             <p class="service-panel-desc">Professional styling with premium pomades and waxes for a long-lasting impression.</p>
+             <div class="service-panel-price">Included in Basic Cut</div>
+           </div>
+         </div>
+
+         <!-- Treatment -->
+         <div class="service-panel" id="panel-treatment">
+           <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=800" alt="Hair Treatment">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Hair Treatment</h3>
+             <p class="service-panel-desc">Restorative hair treatments and protein packs to maintain hair health and texture.</p>
+             <div class="service-panel-price">Health First</div>
+           </div>
+         </div>
+
+         <!-- Massage -->
+         <div class="service-panel" id="panel-massage">
+           <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800" alt="Head Massage">
+           <div class="service-panel-content">
+             <h3 class="service-panel-title">Head Massage</h3>
+             <p class="service-panel-desc">Relaxing head and shoulder massage to relieve tension and improve circulation.</p>
+             <div class="service-panel-price">Included in Premium Combos</div>
+           </div>
+         </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2 class="reveal">READY TO LOOK YOUR BEST?</h2>
+    <p class="reveal">Book your appointment now at Signature Men's Salon.</p>
+    <div class="cta-band-btns reveal">
+      <a href="contact.html" class="btn btn-yellow">Book Appointment</a>
+      <a href="pricing.html" class="btn btn-outline">View Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="logo.png" alt="Signature Men's Salon Logo"></a>
+        <p>Signature Men's Salon offers premium grooming services with expert stylists, premium products, and a clean, relaxing environment. Experience the ultimate grooming experience in Uttara, Dhaka.</p>
+        <div class="social-row">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/signature.mens.salon" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><a href="tel:+8801312744660">01312-744660</a></li>
+        <li><a href="mailto:pmsignaturemenssalon@gmail.com">pmsignaturemenssalon@gmail.com</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Signature Men's Salon. All Rights Reserved. Premium Grooming for Men</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
